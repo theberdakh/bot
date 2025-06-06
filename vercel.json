@@ -13,7 +13,7 @@
     }
   ],
   "env": {
-    "BOT_TOKEN": "@bot_token",
-    "WEBHOOK_URL": "https://your-app.vercel.app/webhook"
+    "BOT_TOKEN": "6585317294:AAHUwUPGf9UwNacAm_FD9_zed2HiT-sygjk",
+    "WEBHOOK_URL": "https://bot-two-ruddy.vercel.app/"
   }
 }
