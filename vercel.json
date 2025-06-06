@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "build/libs/*.jar",
+      "use": "@vercel/java"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/build/libs/telegram-bot-1.0-SNAPSHOT.jar"
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": "@bot_token",
+    "WEBHOOK_URL": "https://your-app.vercel.app/webhook"
+  }
+}

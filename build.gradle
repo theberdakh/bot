@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     implementation "dev.inmo:tgbotapi:24.0.2"
+    implementation("io.ktor:ktor-server-netty:2.3.12")
+    implementation("io.ktor:ktor-server-core:2.3.12")
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 
